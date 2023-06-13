@@ -78,7 +78,7 @@ public class Pizza {
         if(take_away)
             sb.append("Paperbag Added: 20\n");
 
-        sb.append("Total Price: "+this.price);
+        sb.append("Total Price: "+this.price+"\n");
         this.bill = sb.toString();
         return this.bill;
     }
